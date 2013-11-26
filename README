@@ -1,0 +1,23 @@
+********************************************************************************
+CSCE 428
+Project 2: Context Free Grammars
+John Hotovy
+November 25, 2013
+********************************************************************************
+
+Compiling:
+********************************************************************************
+Compile with javac, for example:
+~> javac Main.java
+
+Running:
+********************************************************************************
+Run with java, for example:
+~> java Main < {input_file_name}
+
+Source Files:
+********************************************************************************
+1. Main.java - Given an input file with n context free grammar rules and
+any number of input strings, displays whether or not each input string
+is accepted or rejected by the given CFG. Includes subclass Rule to
+represent a single CFG rule.
